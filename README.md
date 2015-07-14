@@ -10,29 +10,29 @@ chmod +x skype_alarm.sh
 
 # eg Skype Reminder:
 
----- to whom the reminding call should be made ( +91 is international dialing code for india)
+- to whom the reminding call should be made ( +91 is international dialing code for india)
 
-Mobile: +91XXXXXXXXXX   
+ Mobile: +918860963247   
 
----- time after which call will be placed
+- time after which call will be placed
 
-Hrs: 4
+ Hrs: 4
 
-Min: 3
+ Min: 3
 
-Sec: 10
+ Sec: 10
 
-Total Sec: 14590
+ Total Sec: 14590
 
----- delay between consecutive calls
+- delay between consecutive calls
 
-Delay: 30
+ Delay: 30
 
----- number of times the call will be made
+- number of times the call will be made
 
-Number of times: 5
+ Number of times: 5
 
----- command 
+- command 
 
  ./skype_alarm.sh -p +918860963247 -h 4 -m 3 -s 10 -d 30 -n 5
 

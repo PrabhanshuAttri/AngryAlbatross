@@ -1,14 +1,14 @@
 # Angry Albatross
 Get reminder calls via skype.
 
-# Usage
+## Usage
 
 chmod +x AngryAlbatross.sh
 
 ./AngryAlbatross.sh -p +phone -h hours -m minutes -s seconds -d delay_between_calls -n number_of_times
 
 
-# eg Skype Reminder:
+### Arguments:
 
 - to whom the reminding call should be made ( +91 is international dialing code for india)
 

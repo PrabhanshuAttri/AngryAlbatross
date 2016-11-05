@@ -2,37 +2,17 @@
 Get reminder calls via skype.
 
 ## Usage
-
-chmod +x AngryAlbatross.sh
-
-./AngryAlbatross.sh -p +phone -h hours -m minutes -s seconds -d delay_between_calls -n number_of_times
+    chmod +x AngryAlbatross.sh
+    ./AngryAlbatross.sh -p +phone -h hours -m minutes -s seconds -d delay_between_calls -n number_of_times
 
 
 ### Arguments:
+    p: to whom the reminding call should be made like +91XXXXXXXXXX
+    h: hrs after which call will be placed
+    m: minutes after which call will be placed
+    s: seconds after which call will be placed
+    d: delay between consecutive calls
+    n: number of times the call will be made
 
-- to whom the reminding call should be made ( +91 is international dialing code for india)
-
- Mobile: +91XXXXXXXXXX
-
-- time after which call will be placed
-
- Hrs: 4
-
- Min: 3
-
- Sec: 10
-
- Total Sec: 14590
-
-- delay between consecutive calls
-
- Delay: 30
-
-- number of times the call will be made
-
- Number of times: 5
-
-- command 
-
- ./skype_alarm.sh -p +918860963247 -h 4 -m 3 -s 10 -d 30 -n 5
+    eg: ./AngryAlbatross.sh -p +91XXXXXXXXXX -h 4 -m 3 -s 10 -d 30 -n 5
 

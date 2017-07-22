@@ -12,26 +12,26 @@ delay=
 N=
 
 while getopts p:h:m:s:d:n: opt; do
-  case $opt in
-  p)
-      mobile=$OPTARG
-      ;;
-  h)
-      hrs=$OPTARG
-      ;;
-  m)
-      min=$OPTARG
-      ;;
-  s)
-      sec=$OPTARG
-      ;;
-  d)
-      delay=$OPTARG
-      ;;
-  n)
-      N=$OPTARG
-      ;;
-  esac
+    case $opt in
+        p)
+            mobile=$OPTARG
+            ;;
+        h)
+            hrs=$OPTARG
+            ;;
+        m)
+            min=$OPTARG
+            ;;
+        s)
+            sec=$OPTARG
+            ;;
+        d)
+            delay=$OPTARG
+            ;;
+        n)
+            N=$OPTARG
+            ;;
+    esac
 done
 
 shift $((OPTIND - 1))
@@ -54,8 +54,8 @@ echo "Sec: "$sec
 echo "Total Sec: "$tot
 
 if [ $N -eq '0' ]
-	then
-		let 'N = 1'
+then
+    let 'N = 1'
 fi
 
 printf '\n'
@@ -66,13 +66,13 @@ printf '\n'
 sleep "$tot"
 for (( c=1; c<=N; c++ ))
 do
-	echo "Call "$c
-	skype --callto "$mobile"
-	if [ $N -eq $c ]
-		then
-			break;
-	fi
-	sleep "$delay"
+    echo "Call "$c
+    skype --callto "$mobile"
+    if [ $N -eq $c ]
+    then
+        break;
+    fi
+    sleep "$delay"
 done
 printf '\n'
 echo "Thank You for using our service."

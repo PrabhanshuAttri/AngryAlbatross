@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "***************************************************************"
-printf '\n'
-echo Skype Reminder.
+echo AngryAlbatross.
 
 mobile= 
 hrs=  
@@ -75,6 +73,4 @@ do
     sleep "$delay"
 done
 printf '\n'
-echo "Thank You for using our service."
-printf '\n'
-echo "***************************************************************"
+echo "Done."

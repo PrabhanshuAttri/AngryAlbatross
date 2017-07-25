@@ -1,6 +1,9 @@
 # Angry Albatross
 Get reminder calls via skype.
 
+## Requirements
+    Skype with credits
+
 ## Usage
     chmod +x AngryAlbatross.sh
     ./AngryAlbatross.sh -p +phone -h hours -m minutes -s seconds -d delay_between_calls -n number_of_times

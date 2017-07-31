@@ -1,7 +1,7 @@
 # Angry Albatross
 Get reminder calls via skype.
 
-###### Note: Skype calls have some restirctions like calls within India are not allowed [Source](https://support.skype.com/en/faq/FA34487/why-can-t-i-make-calls-to-india-from-india)
+###### Note: Skype calls have some restirctions like calls within India are not allowed [[Source](https://support.skype.com/en/faq/FA34487/why-can-t-i-make-calls-to-india-from-india)]
 
 ## Requirements
     Skype with credits
